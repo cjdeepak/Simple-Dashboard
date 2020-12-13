@@ -1,0 +1,9 @@
+---
+layout: none
+---
+[{% for input in site.data.input %}
+	{
+	 "status":"{{input.Status}}",
+	"count":"{{input.Count}}"
+	}{% if forloop.last == false %},{% endif %}
+{% endfor %}]

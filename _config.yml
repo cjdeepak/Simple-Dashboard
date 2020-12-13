@@ -1,0 +1,6 @@
+title: Simple-Dashboard
+email: cjdeepak@gmail.com
+url: https://cjdeepak.github.io/Simple-Dashboard/
+theme: minima
+plugins:
+  - jekyll-feed
